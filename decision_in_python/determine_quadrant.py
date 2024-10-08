@@ -13,6 +13,3 @@ elif x < 0 and y < 0:
 else:
     print("Co-ordinates X =", x, "and Y =", y, "lies in Fourth Quadrant")
 
-
-
-
