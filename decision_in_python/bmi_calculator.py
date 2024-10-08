@@ -4,7 +4,7 @@ if age >= 18:
     weight = float(input("Enter your weight (in Kg) = "))
     height = float(input("Enter you height (in meters) = "))
 
-    BMI = weight / (height*height)
+    BMI = weight / (height * height)  # Calculates BMI
 
     if BMI < 18.5:
         print("Your BMI is ", f"{BMI: .2f}", "\nYou are Under weight")
